@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,26 +10,33 @@
     p {
       color: salmon;
     }
+
     p::first-letter {
       color: teal;
     }
+
     p::before {
       content: "✨";
     }
+
     p::after {
       content: "💅🏼";
     }
+
     p:hover {
       color: skyblue;
     }
+
     div p:nth-child(2) {
       color: violet;
     }
+
     ::placeholder {
       color: tomato;
     }
   </style>
 </head>
+
 <body>
   <p>Hola</p>
   <div>
@@ -38,4 +46,5 @@
   </div>
   <input type="text" placeholder="name">
 </body>
+
 </html>
